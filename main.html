@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+    <h1>Acesso Restrito</h1>
+    <fieldset>
+       <legend>Faça o Login</legend>
+        <form name="form">
+    
+            Nome: <input type="text" name="nome" autocomplete="off">
+            Senha: <input type="password" name="senha" autocomplete="off">
+            
+            <button type="button" name="botao" value="login" onclick="acesso(this.form)">Entra</button>
+
+            <input type="reset" name="Limpar" value="Limpar">
+        </form>
+    </fieldset>
+    <script src="main.js" ></script>    
+</body>
+</html>
